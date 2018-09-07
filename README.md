@@ -1,5 +1,6 @@
 # PinataTest
 ##### This is example uploading a file to IPFS with Pinata
+Firstly  you must type your api and private key in index.js (https://pinata.cloud/account)
 ##### How to run
 
 ```
