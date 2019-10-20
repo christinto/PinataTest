@@ -9,13 +9,23 @@ Firstly  you must type your api and private key in index.js (https://pinata.clou
 
 ```
 
+
+
+icloud path
+/Users/peza/Desktop/silver/Kangaroo_FransHugens.png
+
+
+node index.js /Users/peza/Desktop/silver/Kangaroo_FransHugens.png
+
+
 ##### Successful Output
 
-```
-{
-    IpfsHash: 'QmPnzP6jZF8scmaPmPz9zg2HvAXPxkXDdkdDvekbaKRxCB',
-    PinSize: '622027',
-    Timestamp: '2018-09-07T17:32:01.381Z' 
-}
 
-```
+
+My successful output
+
+| ~/Documents/crypto/PinataTest @ Chriss-MacBook-Pro (peza)
+| => node index.js /Users/peza/Desktop/silver/Kangaroo_FransHugens.png
+{ IpfsHash: 'QmZeg7wvp4U7JphA4Cnmcpmd7Xw8z9c2P9py9pcaDotQgc',
+  PinSize: '1072024',
+  Timestamp: '2019-10-20T14:37:16.910Z' }

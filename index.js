@@ -3,8 +3,13 @@ const fs = require('fs');
 const FormData = require('form-data');
 const args = process.argv;
 
-var api_key="489f39e6d084c7e9aa95"
-var secret_api_key="20409837f135ddc426828f86675533fd4e4c06ecb811eaf2f2521590f03bd643"
+//replace with my own.
+// var api_key="489f39e6d084c7e9aa95"
+// var secret_api_key="20409837f135ddc426828f86675533fd4e4c06ecb811eaf2f2521590f03bd643"
+
+var api_key="f3fe7aed87b6a9ab0a04"
+var secret_api_key="6d24dee903011952b404e3c5c52ce7c2aac63d013c4108835b7158d13b2128f9"
+
 
 const testAuth = () => {
     const url = `https://api.pinata.cloud/data/testAuthentication`;
